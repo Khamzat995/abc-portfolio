@@ -257,7 +257,6 @@ section {
     box-shadow: var(--box-shadow-inset);
 }
 
-
 .home {
     display: flex;
     flex-flow: column;
@@ -427,10 +426,6 @@ section {
 
 }
 
-/* section#services.services {
-    max-height: 400px;
-} */
-
 .services .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -565,28 +560,6 @@ section {
     padding: 2rem;
 }
 
-/* .contact form .box {
-    padding: 1rem 1.5rem;
-    width: 100%;
-    background: none;
-    color: var(--black);
-    font-size: 1.6rem;
-    text-transform: none;
-    margin: .7rem 0;
-    box-shadow: var(--box-shadow);
-    border-radius: .5rem;
-} */
-
-/* .contact form textarea {
-    height: 20rem;
-    resize: none;
-} */
-
-/* .contact form .box:focus {
-    box-shadow: var(--box-shadow-inset);
-} */
-
-/* апр */
 .contact .sharell {
     position: relative;
     display: flex;
@@ -639,8 +612,6 @@ section {
     box-shadow: var(--box-shadow-inset);
     color: var(--blue);
 }
-
-/* вап */
 
 .credits {
     font-size: 2rem;

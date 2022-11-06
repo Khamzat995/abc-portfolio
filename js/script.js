@@ -21,15 +21,5 @@ themeToggler.onclick = () => {
         document.body.classList.remove('active');
     }
 }
-/* языки */
-/* let themeTogglerRu = document.querySelector('#theme-toggler-ru');
 
-themeTogglerRu.onclick = () => {
-    themeTogglerRu.classList.toggle('fas fa-globe');
-    if (themeTogglerRu.classList.contains('fas fa-globe')) {
-        document.body.classList.add('active');
-    } else {
-        document.body.classList.remove('active');
-    }
-} */
 
