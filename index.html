@@ -12,8 +12,7 @@
         content="Если вы дадите человеку программу, то займете его на один день. Если вы научите человека программировать, то займете его на всю жизнь." />
     <meta name="keywords" content="Отладка кода — это как охота. Охота на баги.">
 
-    <title>Хамзат | портфолио</title>
-
+    <title class="lng-title"></title>
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -27,17 +26,17 @@
 
     <header class="header">
         <div class="user">
-            <img src="image/photo64.webp" width="180px" alt="картинка">
-            <h3>Хамзат Кудузов</h3>
-            <p>Full-stack разработчик</p>
+            <img src="image/khamzat_foto.webp" width: 16rem, height: 18rem, alt="picture">
+            <h3 class="lng-header-h3"></h3>
+            <p class="lng-header-p"></p>
         </div>
 
         <nav class="navbar">
-            <a href="#home">Начало</a>
-            <a href="#about">Опыт</a>
-            <a href="#services">Услуги</a>
-            <a href="#portfolio">Работы</a>
-            <a href="#contact">Контакты</a>
+            <a class="lng-navbar-home" href="#home"></a>
+            <a class="lng-navbar-about" href="#about"></a>
+            <a class="lng-navbar-services" href="#services"></a>
+            <a class="lng-navbar-portfolio" href="#portfolio"></a>
+            <a class="lng-navbar-contact" href="#contact"></a>
         </nav>
     </header>
 
@@ -48,25 +47,19 @@
     <!-- theme toggler  -->
 
     <div id="theme-toggler" class="fas fa-moon"></div>
-    <a href="index_gb.html">
-        <div id="theme-toggler-ru">
-            <img src="image/flag_gb.webp" width="30px" height="28px" alt="картинка">
-        </div>
-    </a>
-    <a href="index_tr.html">
-        <div id="theme-toggler-tr">
-            <img src="image/flag_tr.webp" width="30px" height="28px" alt="картинка">
-        </div>
-    </a>
-
+    <select id="theme-toggler-lng">
+        <option value="en">EN</option>
+        <option value="tr">TR</option>
+        <option value="ru">RU</option>
+    </select>
     <!-- home section starts  -->
 
     <section class="home" id="home">
 
         <div class="content">
-            <h3 class="h3-text">Full Stack разработчик</h3>
-            <p class="lorem">Я разработчик полного цикла</p>
-            <a href="#portfolio" class="btn">Посмотреть работы</a>
+            <h3 class="h3-text lng-content-h3"></h3>
+            <p class="lorem lng-content-p"></p>
+            <a href="#portfolio" class="btn lng-content-a"></a>
         </div>
 
     </section>
@@ -76,42 +69,36 @@
     <!-- about section starts  -->
 
     <section class="about" id="about">
-
-        <h1 class="heading"> <span>МОЙ </span> ОПЫТ </h1>
+        <div style="display: flex; width: 100%; justify-content: center">
+            <span class="lng-about-span"></span>&nbsp;&nbsp;
+            <h1 class="heading lng-heading-h1"></h1>
+        </div>
 
         <div class="row">
 
             <div class="box-container">
                 <div class="box">
                     <h3>3+</h3>
-                    <p>лет работы программистом</p>
+                    <p class="lng-about-p1"></p>
                 </div>
                 <div class="box">
                     <h3>50+</h3>
-                    <p>довольные клиенты</p>
+                    <p class="lng-about-p2"></p>
                 </div>
                 <div class="box">
                     <h3>4500+</h3>
-                    <p>рабочих часов</p>
+                    <p class="lng-about-p3"></p>
                 </div>
                 <div class="box">
                     <h3>30+</h3>
-                    <p>успешных проектов</p>
+                    <p class="lng-about-p4"></p>
                 </div>
             </div>
 
             <div class="content">
                 <!-- <h3 class="lorem">Хамзат <span> Кудузов</span></h3> -->
-                <p class="lorem">Я пришел в профессию Fullstack-разработчик
-                    довольно поздно, однако очень доволен своей новой работой.
-                    Программист полного цикла, который в одиночку может создать
-                    веб-приложение: сверстать страницу в HTML и CSS, оживить её
-                    с помощью JavaScript, разработать клиентскую часть на React
-                    и собрать весь бэкенд с помощью Node. js. Эта работа открыла
-                    передо мной огромные возможности для профессионального и
-                    интеллектуального развития.
-                </p>
-                <a href="#contact" class="btn">Связаться со мной</a>
+                <p class="lorem lng-lorem"></p>
+                <a href="#contact" class="btn lng-about-btn"></a>
             </div>
 
         </div>
@@ -119,9 +106,9 @@
         <div class="row">
 
             <div class="progress">
-                <h3> Веб дизайн <span>80%</span> </h3>
+                <h3 class="lng-progress-h31"> <span>80%</span> </h3>
                 <div class="bar bar-1-1"><span></span></div>
-                <h3> Графический дизайн <span>75%</span> </h3>
+                <h3 class="lng-progress-h32"> <span>75%</span> </h3>
                 <div class="bar bar-1-2"><span></span></div>
                 <h3> UI/UX design <span>50%</span> </h3>
                 <div class="bar bar-1-3"><span></span></div>
@@ -129,7 +116,6 @@
                 <div class="bar bar-1-4"><span></span></div>
                 <h3> CSS <span>80%</span> </h3>
                 <div class="bar bar-1-5"><span></span></div>
-
             </div>
 
             <div class="progress">
@@ -155,37 +141,37 @@
 
     <section class="services" id="services">
 
-        <h1 class="heading"> мои <span> услуги</span> </h1>
+        <!-- <h1 class="heading lng-services-h1"><span class="lng-services-span"> </span> </h1> -->
+
+        <div style="display: flex; width: 100%; justify-content: center">
+            <h1 class="heading lng-services-h1"></h1>&nbsp;&nbsp;
+            <span class="lng-services-span"></span>
+        </div>
 
         <div class="box-container">
 
             <div class="box">
                 <i class="fas fa-code"></i>
-                <h3>Разработка сайтов</h3>
-                <p>Разработка сайтов любой сложности с упором на поисковую систему и повышение продаж.
-                </p>
+                <h3 class="lng-box-h31"></h3>
+                <p class="lng-box-p1"></p>
             </div>
 
             <div class="box">
                 <i class="fas fa-mobile"></i>
-                <h3>Адаптивный дизайн</h3>
-                <p>Отзывчивый подход к созданию дизайна веб-сайта, который реагирует на пользователя с устройством,
-                    размер экрана и его ориентацию.</p>
+                <h3 class="lng-box-h32"></h3>
+                <p class="lng-box-p2"></p>
             </div>
 
             <div class="box">
                 <i class="fas fa-database"></i>
-                <h3>Базы данных</h3>
-                <p>Создание, ведение и использование баз данных для бизнеса и иных практических целей. Управление базами
-                    данных.
-                </p>
+                <h3 class="lng-box-h33"></h3>
+                <p class="lng-box-p3"></p>
             </div>
 
             <div class="box">
                 <i class="fas fa-search-dollar"></i>
-                <h3>SEO маркетинг</h3>
-                <p>Комплекс мероприятий по оптимизации для поднятия позиций сайта в результатах выдачи поисковых систем
-                    по определённым запросам пользователей.</p>
+                <h3 class="lng-box-h34"></h3>
+                <p class="lng-box-p4"></p>
             </div>
         </div>
     </section>
@@ -195,22 +181,26 @@
     <!-- portfolio section starts  -->
 
     <section class="portfolio" id="portfolio">
-        <h1 class="heading"> Мои <span>работы</span> </h1>
+        <div style="display: flex; width: 100%; justify-content: center">
+            <span class="lng-portfolio-span"></span>&nbsp;&nbsp;
+            <h1 class="heading lng-portfolio-h1"></h1>
+        </div>
+
         <div class="box-container">
             <div class="box">
                 <a href="https://istanbul-expert.com/" target="_blank">
                     <video src="video/ist_exp.mp4" loop muted autoplay playsinline></video>
                     <div class="content">
-                        <h3>Агенство <br /> недвижимости</h3>
+                        <h3 class="lng-portfolio-h31"></h3>
                     </div>
                 </a>
             </div>
 
             <div class="box">
                 <a href="https://zura95.site/" target="_blank">
-                    <img src="image/eda.webp" width="280px" alt="картинка">
+                    <img src="image/eda.webp" width="280px" height="24rem" alt="picture">
                     <div class="content">
-                        <h3>Еда на заказ</h3>
+                        <h3 class="lng-portfolio-h32"></h3>
                     </div>
                 </a>
             </div>
@@ -219,57 +209,49 @@
                 <a href="https://talgat.site/" target="_blank">
                     <video src="video/Talgat_clip.mp4" loop muted autoplay playsinline></video>
                     <div class="content">
-                        <h3>Недвижимость <br /> в Стамбуле</h3>
+                        <h3 class="lng-portfolio-h33"></h3>
                     </div>
                 </a>
             </div>
             <div class="box">
                 <a href="https://khamzat.site/cleaning" target="_blank">
-                    <img src="image/cleaning_foto.webp" width="280px" alt="картинка">
+                    <img src="image/cleaning_foto.webp" width="280px" height="24rem" alt="picture">
                     <div class="content">
-                        <h3>Клиринговое <br /> агенство</h3>
+                        <h3 class="lng-portfolio-h34"></h3>
                     </div>
                 </a>
             </div>
 
             <div class="box">
                 <a href="https://khamzat.site/remont" target="_blank">
-                    <img src="image/remont.webp" width="280px" alt="картинка">
+                    <img src="image/remont.webp" width="280px" height="24rem" alt="picture">
                     <div class="content">
-                        <h3>Ремонт <br /> квартир</h3>
+                        <h3 class="lng-portfolio-h35"></h3>
                     </div>
                 </a>
             </div>
 
             <div class="box">
                 <a href="https://khamzat.site/olives" target="_blank">
-                    <img src="image/olives.webp" width="280px" alt="картинка"></img>
+                    <img src="image/olives.webp" width="280px" height="24rem" alt="picture">
                     <div class="content">
-                        <h3>Оливки и<br /> оливковое масло</h3>
+                        <h3 class="lng-portfolio-h36"></h3>
                     </div>
                 </a>
             </div>
-            <!-- <div class="box">
-                <a href="https://www.youtube.com/channel/UCR58sPLCgfgkZ0BDs9TKeCQ">
-                    <video src="video/you_video.mp4" loop muted autoplay></video>
-                    <div class="content">
-                        <h3>YouTube <br /> канал</h3>
-                    </div>
-                </a>
-            </div> -->
 
             <div class="box">
-                <img src="image/telegram-nedir1.webp" width="280px" alt="картинка">
+                <img src="image/telegram-nedir1.webp" width="280px" height="24rem" alt="picture">
                 <div class="content">
-                    <h3>Telegram <br /> канал</h3>
+                    <h3 class="lng-portfolio-h37"></h3>
                 </div>
                 </a>
             </div>
 
             <div class="box">
-                <img src="image/trading.webp" width="280px" alt="картинка">
+                <img src="image/trading.webp" width="280px" height="24rem" alt="picture">
                 <div class="content">
-                    <h3>Проект <br /> в разработке</h3>
+                    <h3 class="lng-portfolio-h38"></h3>
                 </div>
             </div>
 
@@ -285,7 +267,7 @@
 
     <section class="contact" id="contact">
 
-        <h1 class="heading"> <span>Контакты</span> </h1>
+        <h1 class="heading"> <span class="lng-contact-span"></span> </h1>
 
         <form action="">
 
@@ -321,10 +303,12 @@
 
     <!-- contact section ends -->
 
-    <div class="credits"> Стамбул <span>2021</span> | Все права защищены </div>
-
+    <div class="credits lng-footer"></div>
 
     <!-- custom js file link  -->
+
+    <script src="js/langArr.js"></script>
+    <script src="js/langScript.js"></script>
     <script src="js/script.js"></script>
 
 </body>

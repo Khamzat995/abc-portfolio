@@ -90,6 +90,31 @@ section {
     text-transform: uppercase;
 }
 
+.about span {
+    color: var(--blue);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.services span {
+    color: var(--blue);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+
+.portfolio span {
+    color: var(--blue);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -108,7 +133,7 @@ section {
     border: 1rem solid transparent;
     border-radius: 50%;
     height: 18rem;
-    width: 18rem;
+    width: 16rem;
     box-shadow: var(--box-shadow);
 }
 
@@ -187,12 +212,10 @@ section {
     box-shadow: var(--box-shadow-inset);
 }
 
-#theme-toggler-ru img {
-    border-radius: 50%;
-}
+
 
 /* языки */
-#theme-toggler-ru {
+#theme-toggler-lng {
     position: fixed;
     top: 1.5rem;
     right: 8rem;
@@ -202,12 +225,12 @@ section {
     line-height: 5rem;
     border-radius: 50%;
     font-size: 2rem;
+    font-weight: 600;
     cursor: pointer;
     box-shadow: var(--box-shadow);
     text-align: center;
     color: var(--black);
     background: var(--bg-color);
-    padding-top: 7px;
 }
 
 #theme-toggler-ru:hover {
@@ -319,7 +342,7 @@ section {
 }
 
 .about {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .about .row {
@@ -686,6 +709,10 @@ section {
     #menu-btn {
         display: initial;
     }
+
+    .about {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width:450px) {
@@ -705,5 +732,13 @@ section {
 
     .services {
         margin-top: 10px;
+    }
+
+    .home .content h3 {
+        font-size: 6rem;
+    }
+
+    #theme-toggler-lng {
+        width: 6rem;
     }
 }
