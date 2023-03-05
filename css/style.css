@@ -352,7 +352,7 @@ section {
 
 .about .row .box-container .box p {
     font-size: 1.7rem;
-    color: var(--light-color);
+    color: var(--black);
     padding: .5rem 0;
 }
 
@@ -372,7 +372,7 @@ section {
 
 .about .row .content p {
     font-size: 1.7rem;
-    color: var(--light-color);
+    color: var(--black);
     line-height: 1.8;
     padding: 1rem 0;
 }
@@ -468,7 +468,7 @@ section {
 .services .box-container .box p {
     font-size: 1.4rem;
     line-height: 1.8;
-    color: var(--light-color);
+    color: var(--black);
 }
 
 .services .box-container .box::before {
