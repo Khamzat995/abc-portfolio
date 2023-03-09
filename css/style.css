@@ -107,6 +107,18 @@ section {
 }
 
 
+.portfolio-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.github-work {
+    margin-left: 10px;
+}
+
 .portfolio span {
     color: var(--blue);
     text-transform: uppercase;
@@ -685,6 +697,12 @@ section {
     min-height: 50%;
 }
 
+
+
+.github {
+    margin-top: 25%;
+}
+
 /* media queries  */
 
 @media (max-width:991px) {
@@ -713,6 +731,15 @@ section {
     .about {
         margin-top: 20px;
     }
+
+    .github {
+        width: 20px;
+    }
+
+    .github-work {
+        width: 35px;
+        height: 35px;
+    }
 }
 
 @media (max-width:450px) {
@@ -740,5 +767,14 @@ section {
 
     #theme-toggler-lng {
         width: 6rem;
+    }
+
+    .github {
+        width: 20px;
+    }
+
+    .github-work {
+        width: 35px;
+        height: 35px;
     }
 }
